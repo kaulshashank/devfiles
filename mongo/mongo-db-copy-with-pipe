@@ -1,0 +1,11 @@
+mongodump --host HOST:PORT \
+    --db SOURCE_DB \
+    --username USERNAME \
+    --password PASSWORD \
+    --archive | mongorestore --host HOST:PORT \
+        --nsFrom 'SOURCE_DB.*' \
+        --nsTo 'TARGET_DB.*' \
+        --username USERNAME \
+        --password PASSWORD  \
+        --archive \
+        --drop
