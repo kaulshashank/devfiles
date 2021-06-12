@@ -14,5 +14,11 @@ SyslogIdentifier=example-service-name
 # Can provide environment
 # Environment=NODE_ENV=production PORT=123
 
+# This will restart the service once a day
+# This also requires "Restart=always"
+# Type=notify
+# WatchdogSec=86400
+
+
 [Install]
 WantedBy=multi-user.target
