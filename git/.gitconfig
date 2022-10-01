@@ -1,0 +1,10 @@
+[user]
+	name = Shashank Kaul
+	email = xxx@xxx.com
+[pull]
+	rebase = false
+[core]
+	editor = vim
+[init]
+	defaultBranch = main
+

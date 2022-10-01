@@ -1,5 +1,8 @@
+
+```
 sudo growpart <block-name> 1
 # Ex: sudo growpart /dev/sda 1
 
 sudo resize2fs <parition>
 # Ex: sudo resiez2fs /dev/sda1
+```
