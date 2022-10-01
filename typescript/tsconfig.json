@@ -13,7 +13,8 @@
 		"strict": true,
 		"noImplicitAny": true,
 		"strictNullChecks": true,
-		"moduleResolution": "node"
+		"moduleResolution": "node",
+		"preserveWatchOutput": true
 	},
 	"exclude": ["node_modules"],
 	"include": ["src", "global.d.ts", "thirdparty.d.ts"]
