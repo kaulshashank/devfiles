@@ -1,4 +1,8 @@
 {
+	/* EXPERIMENTAL SHIT */
+	"typescript.tsserver.experimental.enableProjectDiagnostics": true,
+	/* EXPERIMENTAL SHIT */
+  
 	"window.titleBarStyle": "custom",
 	"window.commandCenter": true,
   
@@ -18,16 +22,16 @@
 	"debug.onTaskErrors": "debugAnyway",
   
 	"terminal.integrated.shellIntegration.enabled": true,
-
+  
 	"files.insertFinalNewline": true,
-
+  
 	"search.exclude": {
-		"**/build": true,
-		"**/node_modules": true
+	  "**/build": true,
+	  "**/node_modules": true
 	},
   
 	"[typescriptreact]": {
-	  "editor.defaultFormatter": "vscode.typescript-language-features"
+	  "editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
 	"[css]": {
 	  "editor.defaultFormatter": "vscode.css-language-features"
